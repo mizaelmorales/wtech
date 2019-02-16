@@ -186,3 +186,7 @@ h4 {
 .ajustemarca {
     margin-top: 20px;
 }
+
+.fa-shopping-cart, .fa-laptop, .fa-lock{
+    margin-left: 40px;
+}
