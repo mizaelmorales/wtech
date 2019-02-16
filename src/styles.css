@@ -1,0 +1,188 @@
+/* You can add global styles to this file, and also import other style files */
+.alert.flash-messages {
+    margin-top:10px
+}
+
+/* HomePage */
+.container2 { 
+    margin-right:95px;
+    margin-left:95px;  
+}
+.offer {
+    
+    font-weight: 700;
+    color: white;
+    background: #333;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 7px 0px;
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+  }
+
+  .circle {
+    height: 189px;
+    width: 134px;
+    
+  }
+
+  h4, p {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+.ajuste-icon {
+    margin-left: 40px;
+}
+  /* Homepage Css */
+
+  .container2 { 
+    margin-right:95px;
+    margin-left:95px;  
+}
+
+.navinfo1 {
+    font-size: 13px !important;
+    line-height: 2.2;
+    letter-spacing: 1.2px;
+    font-family: 'Quicksand', sans-serif;
+    color: #333 !important;
+    padding-right: 0px;
+}
+
+.a-top {
+    line-height: 4;
+}
+
+.bandera{
+    height: 12px;
+    vertical-align: -2px;
+}
+
+.navinfo2 {
+    display: inline-block;
+}
+
+.li-header1 {
+    margin-right: 10px;
+}
+
+.wt {
+    height: 50px;
+}
+
+.ajustenav1 {
+    height: 41px;
+}
+
+.barra {
+    background-image: linear-gradient(0deg,#212529 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+    font-family: 'Quicksand', sans-serif;
+}
+.btn2 {
+    border-color: currentColor;
+    color: #fafafa;
+    background-color: #212529;
+    border: 1px solid #fafafa;
+}
+
+.btn-outline-success.active.custom-file-control:before, .btn-outline-success.custom-file-control:active:before, .btn-outline-success.custom-file-control:focus:before, .btn-outline-success.custom-file-control:hover:before, .btn-outline-success.focus.custom-file-control:before, .btn.btn-outline-success.active, .btn.btn-outline-success.focus, .btn.btn-outline-success:active, .btn.btn-outline-success:focus, .btn.btn-outline-success:hover, .open>.btn-outline-success.dropdown-toggle.custom-file-control:before, .open>.btn.btn-outline-success.dropdown-toggle {
+    color: #212529;
+    background-color: hsla(0,0%,60%,.2);
+    border-color: #212529;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem #212529;
+}
+
+.ajuste-nav3-a {
+    color: #333;
+    line-height: 36px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.lineado {
+    
+    border-bottom: 1px solid #c4c4c4 !important;
+    border-top: 1px solid #c4c4c4; 
+}
+
+.ajust-nav3 {
+    margin-bottom: 0px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+  }
+  
+  ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #fed136;
+  }
+
+  .svg-inline--fa {
+    margin-left: 10px;
+}
+
+.centraboton {
+    margin-top: 5px !important;
+}
+
+.lineado2 {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #c4c4c4 !important;
+    border-top: 1px solid #c4c4c4; 
+}
+
+.ajusteboton {
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.li1 {
+    margin-top: 15px;
+}
+
+.foot {
+    background-color: #333;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+.ajustemarca {
+    margin-top: 20px;
+}
