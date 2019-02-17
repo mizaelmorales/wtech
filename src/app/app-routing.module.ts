@@ -5,12 +5,19 @@ import { HomepageComponent } from './home/homepage/homepage.component';
 import { RegistroComponent } from './login/registro.component';
 import { HomeComponent } from './home/home.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { PanelComponent } from './panel/panel.component';
+import { DashboardComponent } from './panel/dashboard/dashboard.component';
 
 const routes: Routes = [  
   {path:'home', component:HomeComponent, 
     children:[
       {path:'homepage', component: HomepageComponent},
       {path:'', redirectTo:'homepage', pathMatch: 'full' }
+  ]},
+  {path:'panel', component:PanelComponent,
+    children:[
+      {path:'dashboard',component:DashboardComponent},
+      {path:'',  redirectTo:'dashboard', pathMatch: 'full'}
   ]},
   {path:'login', component:LoginComponent },
   {path:'registro', component:RegistroComponent },
