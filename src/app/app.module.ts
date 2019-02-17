@@ -8,6 +8,9 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { HomeComponent } from './home/home.component';
 import { RegistroComponent } from './login/registro.component';
 import { HomepageComponent } from './home/homepage/homepage.component';
+import { FormsModule } from '@angular/forms';
+import { PanelComponent } from './panel/panel.component';
+import { DashboardComponent } from './panel/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { HomepageComponent } from './home/homepage/homepage.component';
     NopagefoundComponent,
     HomeComponent,
     RegistroComponent,
-    HomepageComponent
+    HomepageComponent,
+    PanelComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
