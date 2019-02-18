@@ -11,6 +11,11 @@ import { HomepageComponent } from './home/homepage/homepage.component';
 import { FormsModule } from '@angular/forms';
 import { PanelComponent } from './panel/panel.component';
 import { DashboardComponent } from './panel/dashboard/dashboard.component';
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/database';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { NosotrosComponent } from './home/nosotros/nosotros.component';
 
 @NgModule({
   declarations: [
@@ -21,14 +26,18 @@ import { DashboardComponent } from './panel/dashboard/dashboard.component';
     RegistroComponent,
     HomepageComponent,
     PanelComponent,
-    DashboardComponent
+    DashboardComponent,
+    NosotrosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+
   ],
-  providers: [],
+  providers: [AngularFireAuth],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
