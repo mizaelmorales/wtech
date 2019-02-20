@@ -7,11 +7,13 @@ import { HomeComponent } from './home/home.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PanelComponent } from './panel/panel.component';
 import { DashboardComponent } from './panel/dashboard/dashboard.component';
+import { NosotrosComponent } from './home/nosotros/nosotros.component';
 
 const routes: Routes = [  
   {path:'home', component:HomeComponent, 
     children:[
       {path:'homepage', component: HomepageComponent},
+      {path:'nosotros', component: NosotrosComponent},
       {path:'', redirectTo:'homepage', pathMatch: 'full' }
   ]},
   {path:'panel', component:PanelComponent,
