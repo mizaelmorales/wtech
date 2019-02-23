@@ -30,8 +30,12 @@
     
   }
 
-  h4, p {
+  h4,h2, p {
     font-family: 'Quicksand', sans-serif;
+  }
+
+.justificar {
+    text-align: justify;
   }
 
 .ajuste-icon {
@@ -236,4 +240,12 @@ h4 {
 
 .profile-image {
     margin-left: 31px;
+}
+
+.card {
+    margin-top: 48px;
+}
+
+.nosotros {
+    margin-top: 95px; 
 }
