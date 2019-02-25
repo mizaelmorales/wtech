@@ -16,6 +16,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/database';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { NosotrosComponent } from './home/nosotros/nosotros.component';
+import { ContactanosComponent } from './home/contactanos/contactanos.component';
+import { ServiciosComponent } from './home/servicios/servicios.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { NosotrosComponent } from './home/nosotros/nosotros.component';
     HomepageComponent,
     PanelComponent,
     DashboardComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    ContactanosComponent,
+    ServiciosComponent
   ],
   imports: [
     BrowserModule,

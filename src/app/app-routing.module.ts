@@ -8,12 +8,16 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PanelComponent } from './panel/panel.component';
 import { DashboardComponent } from './panel/dashboard/dashboard.component';
 import { NosotrosComponent } from './home/nosotros/nosotros.component';
+import { ContactanosComponent } from './home/contactanos/contactanos.component';
+import { ServiciosComponent } from './home/servicios/servicios.component';
 
 const routes: Routes = [  
   {path:'home', component:HomeComponent, 
     children:[
       {path:'homepage', component: HomepageComponent},
       {path:'nosotros', component: NosotrosComponent},
+      {path:'contactanos', component: ContactanosComponent},
+      {path:'servicios', component: ServiciosComponent},
       {path:'', redirectTo:'homepage', pathMatch: 'full' }
   ]},
   {path:'panel', component:PanelComponent,
